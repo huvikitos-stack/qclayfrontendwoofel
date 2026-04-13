@@ -42,7 +42,7 @@ export default function Registrations(props) {
                 navigate("/signIn")
             }, 3000)
         } catch (err) {
-            toast.error("Error, this email probably already exists in our DataBase")
+            toast.error("Error")
             console.log(err)
         }
     }
