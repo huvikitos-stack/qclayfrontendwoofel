@@ -26,7 +26,7 @@ export default function HomeSocials() {
       <div ref={mainScroll} className="container mx-auto">
         <div ref={contentRef} className="bg-white flex justify-center py-40 max-sm:py-60 w-1 justify-self-center">
           <div className="flex items-center relative">
-            <div ref={textsOneRef} className="perspective-midrange absolute text-transparent">
+            <div ref={textsOneRef} className="perspective-midrange absolute max-sm:scale-50 text-transparent">
               {Array.from({ length: 10 }).map((_, index) => (
               <h2 key={index} className='text-3xl font-semibold pb-2 text-nowrap'>WE'RE FOLLOWED BY 150K DESIGNERS</h2>
             ))}
