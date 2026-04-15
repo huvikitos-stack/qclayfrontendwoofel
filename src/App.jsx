@@ -48,7 +48,7 @@ export default function App() {
   }, [])
   return (
     <React.Fragment>
-      <div ref={cursorRef} className="fixed top-0 left-0 duration-75 bg-white mix-blend-difference w-3 h-3 rounded-full pointer-events-none z-50"></div>
+      <div ref={cursorRef} className="fixed max-sm:hidden top-0 left-0 duration-75 bg-white mix-blend-difference w-3 h-3 rounded-full pointer-events-none z-50"></div>
       <Header/>
       <ScrollToTop/>
       <Routes>

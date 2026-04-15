@@ -31,7 +31,7 @@ export default function HomeSocials() {
               <h2 key={index} className='text-3xl font-semibold pb-2 text-nowrap'>WE'RE FOLLOWED BY 150K DESIGNERS</h2>
             ))}
             </div>
-              <div ref={textsTwoRef} className="flex flex-col leading-8 perspective-midrange text-nowrap">
+              <div ref={textsTwoRef} className="flex max-sm:scale-50 flex-col leading-8 perspective-midrange text-nowrap">
                 <a target='blank_' className='hover:text-neutral-400 cursor-none expand-cursor-dramatic pb-10 text-[85px] font-semibold' href="https://dribbble.com/qclay">ON DRIBBBLE</a>
                 <a target='blank_' className='hover:text-neutral-400 cursor-none expand-cursor-dramatic pb-10 text-[70px] font-semibold' href="https://www.instagram.com/qclaydesign/">ON INSTAGRAM</a>
                 <a target='blank_' className='hover:text-neutral-400 cursor-none expand-cursor-dramatic pb-10 text-[102px] font-semibold'href="https://www.tiktok.com/@qclay.design">ON TIKTOK</a>
