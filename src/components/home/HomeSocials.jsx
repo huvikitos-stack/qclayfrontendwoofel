@@ -28,7 +28,7 @@ export default function HomeSocials() {
           <div className="flex items-center relative">
             <div ref={textsOneRef} className="perspective-midrange absolute max-sm:scale-50 text-transparent">
               {Array.from({ length: 10 }).map((_, index) => (
-              <h2 key={index} className='text-3xl font-semibold max-sm:scale-50 pb-2 text-nowrap'>WE'RE FOLLOWED BY 150K DESIGNERS</h2>
+              <h2 key={index} className='text-3xl max-sm:text-xl font-semibold max-sm:scale-50 pb-2 text-nowrap'>WE'RE FOLLOWED BY 150K DESIGNERS</h2>
             ))}
             </div>
               <div ref={textsTwoRef} className="flex max-sm:scale-50 flex-col leading-8 perspective-midrange text-nowrap">
